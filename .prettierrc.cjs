@@ -1,12 +1,10 @@
 /** @type {import("prettier").Config} */
 module.exports = {
-  arrowParens: "always",
-  printWidth: 80,
-  singleQuote: false,
-  jsxSingleQuote: false,
-  semi: true,
+  printWidth: 100,
+  singleQuote: true,
+  endOfLine: "crlf",
   trailingComma: "all",
-  tabWidth: 2,
-  plugins: [require.resolve("prettier-plugin-tailwindcss")],
-  tailwindConfig: "./packages/config/tailwind",
+  objectCurlyNewLine: "on",
+  semi: false,
+  tabWidth: 3,
 };
