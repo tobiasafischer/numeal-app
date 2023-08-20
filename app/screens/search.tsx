@@ -36,7 +36,6 @@ export const Search: React.FC = () => {
 					<Text style={{ color: '#333', fontWeight: 'bold' }}>{pastedString}</Text>
 				)}
 				{formattedRecipe && <RecipeCard recipe={formattedRecipe} />}
-
 				<Button
 					onPress={() => {
 						setFormattedRecipe('')
